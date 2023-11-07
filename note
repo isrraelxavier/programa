@@ -1,0 +1,13 @@
+
+        // Funções para cálculo de aumento salarial, férias e décimo terceiro salário
+        function calcularAumento(salario, percentualAumento) {
+          return salario * (1 + percentualAumento / 100);
+        }
+    
+        function calcularFerias(salario) {
+          return salario * 4 / 3;
+        }
+    
+        function calcularDecimoTerceiro(salario, mesesTrabalho) {
+          return salario * mesesTrabalho / 12;
+        }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo de salário, férias e décimo terceiro</title>
+</head>
+<h2>Cálculo de salário</h2>
+
+<body>
+  <div id="menu">
+    <select id="opcao" onchange="calcular()">
+      <option value="1">Novo salário</option>
+      <option value="2">Férias</option>
+      <option value="3">Décimo terceiro</option>
+      <option value="4">Sair</option>
+    </select>
+  </div>
+
+  <div id="dados">
+    <input type="text" id="salario" placeholder="Salário">
+    <input type="text" id="percentualAumento" placeholder="Percentual de aumento">
+    <input type="text" id="diasFerias" placeholder="Número de dias de férias">
+    <input type="text" id="mesesTrabalho" placeholder="Número de meses de trabalho">
+  </div>
+
+  <div id="resultado"></div>
+
+  <button id="calcular">Calcular</button>
+  <div id="resultado">
+    <h2>Resultado</h2>
+    <p id="valorResultado"></p>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+<p>
+  NOME:
+  ISRAEL XAVIER EVARISTO DE CASTRO
+  MATRICULA: 2323851
+</p>
